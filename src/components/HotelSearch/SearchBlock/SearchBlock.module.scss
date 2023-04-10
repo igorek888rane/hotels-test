@@ -1,0 +1,26 @@
+.search_block {
+	grid-area: A;
+	max-width: 360px;
+
+	.input {
+		&.date {
+			margin-top: 16px;
+			width: 100%;
+		}
+
+		&.count_day {
+			margin-top: 20px;
+		}
+		.label {
+			font-weight: 500;
+		}
+	}
+
+	.btn {
+		margin-top: 32px;
+	}
+
+	@media (max-width: 767px) {
+		max-width: 767px;
+	}
+}

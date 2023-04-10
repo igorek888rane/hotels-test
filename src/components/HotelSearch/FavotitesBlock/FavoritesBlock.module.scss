@@ -1,0 +1,33 @@
+@import 'src/styles/variables';
+
+.favorites_block {
+	grid-area: C;
+	min-height: 472px;
+	max-width: 360px;
+	margin-bottom: 30px;
+}
+.favorites {
+	margin-top: 32px;
+	height: 330px;
+	overflow-y: scroll;
+
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+}
+.modal_favorites_block {
+	display: none;
+}
+@media (max-width: 767px) {
+	.favorites_block {
+		display: none;
+	}
+	.modal_favorites_block {
+		display: block;
+		max-width: 100%;
+		margin: 0;
+		.favorites {
+			height: 65vh;
+		}
+	}
+}
