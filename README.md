@@ -1,5 +1,5 @@
 # Hotels test
-Веб приложение для поиска отелей - [hotel-search]( https://hotel-search-test.vercel.app/)
+Веб приложение для поиска отелей - [hotels-test]( https://hotels-test-ten.vercel.app/)
 
 ## Описание 
 Содержит две страницы:
